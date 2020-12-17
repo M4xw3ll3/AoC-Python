@@ -1,7 +1,7 @@
 with open('AdventofCodingDay4.txt', 'r') as file:
     data = file.read().split('\n\n')
     data = [p.split() for p in data]
-
+print(data)
 p_values = [0, 0, 0, 0, 0, 0, 0]
 values = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid']
 eye_colour = ['amb', 'blu', 'brn', 'gry', 'grn', 'hzl', 'oth']
